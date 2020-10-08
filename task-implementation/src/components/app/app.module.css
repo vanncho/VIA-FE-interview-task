@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(232, 232, 232);
+}
+
+.headerWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(3, 198, 252);
+}
+
+@media screen and (max-width: 650px) {
+
+  .headerWrapper {
+    display: flex;
+    flex-direction: column;
+  }
+}
